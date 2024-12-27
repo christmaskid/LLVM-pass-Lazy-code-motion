@@ -1,0 +1,2 @@
+cd tests/test-suite-build
+lit -v -j 1 -o O0.json -DOPT_FLAGS="-O0" .
